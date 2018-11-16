@@ -7,14 +7,14 @@ load(
 )
 
 # Uncomment for local bazel rules development
-#local_repository(
+# local_repository(
 #    name = "build_bazel_rules_nodejs",
 #    path = "../rules_nodejs",
-#)
-#local_repository(
+# )
+# local_repository(
 #    name = "build_bazel_rules_typescript",
 #    path = "../rules_typescript",
-#)
+# )
 
 # Angular Bazel users will call this function
 rules_angular_dependencies()
